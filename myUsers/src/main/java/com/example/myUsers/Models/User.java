@@ -22,6 +22,18 @@ public class User {
         this.jobTitle = jobTitle;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
+    }
+
     public User() {}
 
     public Integer getId() {
